@@ -1,0 +1,19 @@
+﻿using EmployeeWebApp;
+@{
+    ViewBag.Title = "Employee";
+}
+
+<h2>Employee</h2>
+"Employee table displays here"
+<table>
+    <tr>
+    <thead> Employee Details </thead>
+    </tr>
+    <tr><td>Employee Code: <textarea id="Ecode" value=""></textarea></td></tr>
+    <tr><td>Employee Name: <textarea id="EName" value=""></textarea></td></tr>
+    <tr><td>Employee Salary: <textarea id="ESal" value=""></textarea></td></tr>
+    <tr><td>Employee Dept: <textarea id="Dept" value=""></textarea></td></tr>
+
+</table>
+<button id="Add" onclick="CreateAddEmp()">Add Emp</button>
+<button id="Del">Del Emp</button>
